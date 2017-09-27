@@ -1,0 +1,172 @@
+.nav-tabs { border-bottom: 2px solid #DDD; }
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+    .nav-tabs > li > a { border: none; color: #666; }
+        .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #4285F4 !important; background: transparent; }
+        .nav-tabs > li > a::after { content: ""; background: #4285F4; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+    .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
+.tab-pane { padding: 15px 0; }
+.tab-content{padding:0px}
+
+.card {background: #FFF none repeat scroll 0% 0%; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); margin-bottom: 30px; }
+/*body{ background: #EDECEC; padding:50px}*/
+.skin-blue .main-header .navbar
+ {
+    background-color: #2f3439  !important;
+}
+.sidebar {  background-color: #fff  !important; }
+.sidebar-menu > li > .treeview-menu {  background-color: #fff  !important;}
+.skin-blue .sidebar-menu > li:hover > a, .skin-blue .sidebar-menu > li.active > a {
+    color: #2f3439 !important;
+    background: #fff!important;
+    border-left-color: #fff !important;
+}
+.skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #fff !important;
+}
+.skin-blue .treeview-menu > li > a {
+    color: #333 !important;
+}
+.skin-blue .treeview-menu > li > .active{
+    background-color: #d2562c;
+color: #fff !important;
+}
+
+.content-header .breadcrumb {
+    float: left !important;
+    background: transparent!important;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    font-size: 12px!important;
+    padding: 5px 14px!important;
+    position: relative !important;
+    top: 15px!important;
+    right: 10px!important;
+    border-radius: 2px!important;
+	margin: 0px 1px 1px 15px !important;
+}
+.content {
+    /*padding: 35px !important;*/
+	padding:31px 0px 0px 10px;
+}
+.content-header > h1 {
+    margin: 0px 1px 1px 15px !important;
+    
+}
+.btn-primary {
+    background-color: #d2562c !important;
+    border-color: #d2562c !important;
+}
+.delete_button { color: #ec0707; }
+.table_title { 
+/*border: 1px solid #ecf0f5;padding: 11px 5px 17px 20px;background: #d2562c;color: #fff; */
+border: 1px solid #ecf0f5;
+padding: 11px 5px 17px 20px;
+background: #ecf0f5;
+color: #0f0e0e;
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+.foo {
+  float: left;
+  width: 83px;
+  height:36px;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+.foo2 {
+  float: left;
+  width: 25px;
+  height:25px;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+/* .blue {
+  background: #13b4ff;
+}
+
+.purple {
+  background: #ab3fdd;
+}
+
+.wine {
+  background: #ae163e;
+} */
+
+.content-header {
+    position: relative !important;
+    padding: 10px 0 0 0 !important;
+}
+.row_custom {
+	width: 97%;
+    margin-right: -5px !important;
+    margin-left: 8px !important;
+	background-color: #ecf0f5;
+border: 1px solid #8c4a4a;
+}
+.row_custom_idea {
+	width: 97%;
+    margin-right: -5px !important;
+    margin-left: 8px !important;
+	
+}
+.nav-tabs .active{ background-color: #ecf0f5;}
+.row_custom  img { 
+width: 60% !important;
+    height: 300px;
+background-color: #dbe2e7;
+padding: 7px 7px 7px 7px; }
+
+.modal-content .modal-header .close{    background-color: #b94024;
+    padding: 3px 8px 4px 8px;
+    border-radius: 13px;
+    color: #fff;
+    opacity: 1;}
+	
+.sem-report-block-type-circle-0{  
+    background-color: #0071bc;
+    height: 19px;
+    width: 19px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 11px;
+    margin-bottom: -1px;
+    border: 1px solid #fff;
+	background-color: #0071bc;
+	}
+#ideas_custom  h5 span { padding: 0px 4px !important;}
